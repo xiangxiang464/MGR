@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="28c450c9-6604-4a22-8d9a-8befe443a7f7" name="MGR">
+        <fileTransfer rootFolder="/root/program/Gait3D-Benchmark" accessType="SFTP" host="192.168.29.152" port="15001" sshConfigId="13943d3e-8f1d-452c-8ed6-645ef86d8d9f" sshConfig="root@192.168.29.152:15001 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
