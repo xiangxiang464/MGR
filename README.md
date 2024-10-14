@@ -71,7 +71,7 @@ For the phase 2, please replace 'phase1' with 'phase2' in the config file name.
 ## Generate the result
 For the phase 1:
 
-Modify the `dataset_root` in `configs/parsinggait/parsinggait_mgr_track1_phase1.yaml`, put the weight in `Gait3D-Benchmark/output/Gait3D-Parsing/ParsingGait/ParsingGait/checkpoints/` and then run this command:
+Modify the `dataset_root` in `configs/parsinggait/parsinggait_mgr_track1_phase1.yaml`, put the weight in `MGR/output/Gait3D-Parsing/ParsingGait/ParsingGait/checkpoints/` and then run this command:
 ```shell
 CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 opengait/main.py --cfgs configs/parsinggait/parsinggait_mgr_track1_phase1.yaml --phase test
 ```
